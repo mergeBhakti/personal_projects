@@ -1,0 +1,19 @@
+# 🏏 Cricket Alerts Bot
+
+A personal project that fetches **live cricket scores** from [Cricbuzz](https://www.cricbuzz.com/) and sends them as updates to **Telegram** (chat, group, or channel).
+
+## 📌 Features
+- Fetches live match data via Cricbuzz API
+- Sends formatted score updates to Telegram
+- Deduplication (avoids repeated messages)
+- Event-based alerts:
+  - ❌ Wicket
+  - 💥 Four & Six
+  - 🎉 Milestones (50/100)
+  - 🔄 End of over
+  - 🏆 Match result
+- Periodic summary updates (every 5 minutes by default)
+- Admin commands: `/stop` and `/start` to control updates remotely
+- Local deployment via Windows Task Scheduler
+
+---
